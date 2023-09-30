@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.photo-container {
+    margin-top: 20px;
+    position: relative;
+}
+
+#mi-foto {
+    max-width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#mi-foto:hover {
+    transform: scale(1.1);
+}
+
+.hobbies {
+    margin-top: 20px;
+}
+
+.hobby-category {
+    margin-bottom: 20px;
+}
